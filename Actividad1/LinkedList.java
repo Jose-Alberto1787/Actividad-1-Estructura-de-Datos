@@ -107,9 +107,6 @@ public class LinkedList{
         if (index<0){
             return;
         }
-        if (index>list.size()){
-            return;
-        }
         for( int i=0; i<index - 1; i++){
             if(current==null){
                 return;
