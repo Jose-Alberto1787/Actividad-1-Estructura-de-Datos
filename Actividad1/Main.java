@@ -65,7 +65,9 @@ public class Main {
                 System.out.println("Escriba la posicion que desea eliminar(solo numero)");
                 int index = sc.nextInt();
                 sc.nextLine();
-                list.deleteIndex(index);
+                if (index<=list.size()){
+                    list.deleteIndex(index);
+                }
             }
             if(eleccion==9){
                 System.out.println("Tamaño de lista:");
