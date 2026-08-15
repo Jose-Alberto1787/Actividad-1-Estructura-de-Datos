@@ -46,7 +46,7 @@ public class Main {
                 list.display();
             }
             if(eleccion==5){
-                System.out.println("Escriba el libro que desea agregar");
+                System.out.println("Escriba el libro que desea ver");
                 Libro = sc.nextLine(); 
                 System.out.println(list.search(Libro));
             }
